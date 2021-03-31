@@ -46,7 +46,7 @@ class User{
     var passwordInput = document.getElementById("password").value;
     for( i= 0; i < users.length; i++){
         if(emailInput == users[i].email && passwordInput == users[i].password){
-            window.location.href="index.html";
+            window.location.href="../counter.html";
             emailInput.value = "";
             passwordInput.value = "";
             return;
